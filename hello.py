@@ -25,5 +25,14 @@ a = "The BodyGuard is the best album"
 b = a.replace('BodyGuard', 'Janet')
 print(b)
 
-a= "C:\Users\name\Documents"
-print(a)
+
+print(~(~2), end = None)
+
+def validate_temperature(reading): 
+    if 20 <= reading <= 40: 
+        result = "Valid" 
+    else: 
+        result = "Invalid" 
+    return result
+
+print(validate_temperature(30))
